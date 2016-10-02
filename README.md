@@ -2,12 +2,13 @@
 
 ## Installation
 1. Download and install .NET Core from https://www.microsoft.com/net/core
-2. Clone repository
-3. Enter command line and navigate to directory containing cloned project
-4. Run `dotnet restore`
-5. Enter to `CDS.WebApi/` directory
-6. Run `dotnet run`
-7. Application is avaible on address: `http://localhost:5000/`
+2. Download and install MongoDb community version from https://www.mongodb.com/download-center?jmp=nav#community
+3. Clone repository
+4. Enter command line and navigate to directory containing cloned project
+5. Run `dotnet restore`
+7. Enter to `CDS.WebApi/` directory
+7. Run `dotnet run`
+8. Application is avaible on address: `http://localhost:5000/`
 
 ## Api
 1. GET `api/CandidateDocuments/{cid}?apikey={apikey}` - Lists candidate's all documents where `{cid}` is candidate id. `{apikey}` defined an api key used for authentication.
